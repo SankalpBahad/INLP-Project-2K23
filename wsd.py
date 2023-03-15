@@ -1,4 +1,3 @@
-import pprint
 import nltk
 import numpy as np
 from nltk.tokenize import word_tokenize
