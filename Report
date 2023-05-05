@@ -1,0 +1,327 @@
+The LSTM model on wic_tsv:
+Batch size : 35, epochs : 15, hidden size = 128, embdedding size = 256
+Epoch 1/15, Loss: 6.9062
+Epoch 2/15, Loss: 6.4036
+Epoch 3/15, Loss: 6.3331
+Epoch 4/15, Loss: 6.3170
+Epoch 5/15, Loss: 6.3093
+Epoch 6/15, Loss: 6.3047
+Epoch 7/15, Loss: 6.3013
+Epoch 8/15, Loss: 6.2987
+Epoch 9/15, Loss: 6.2963
+Epoch 10/15, Loss: 6.2941
+Epoch 11/15, Loss: 6.2919
+Epoch 12/15, Loss: 6.2891
+Epoch 13/15, Loss: 6.2862
+Epoch 14/15, Loss: 6.2826
+Epoch 15/15, Loss: 6.2786
+
+accuracy = 0.89
+precision : 0.95
+recall : 0.82
+F1 score : 0.87
+
+LSTM on semcor:
+
+BATCH_SIZE = 32
+N_EPOCHS = 50
+WINDOW_SIZE = 5
+LEARNING_RATE = 0.1
+HIDDEN_DIM = 512
+
+results:
+Epoch 1, Batch 1.0, Loss: 0.0028
+Epoch 1, Batch 11.0, Loss: 11.5334
+Epoch 1, Batch 21.0, Loss: 0.0426
+Epoch 1, Batch 31.0, Loss: 0.0219
+Epoch 1, Validation Accuracy: 0.9100
+Epoch 2, Batch 1.0, Loss: 0.0022
+Epoch 2, Batch 11.0, Loss: 0.0269
+Epoch 2, Batch 21.0, Loss: 0.0217
+Epoch 2, Batch 31.0, Loss: 0.0217
+Epoch 2, Validation Accuracy: 0.8920
+Epoch 3, Batch 1.0, Loss: 0.0022
+Epoch 3, Batch 11.0, Loss: 0.0217
+Epoch 3, Batch 21.0, Loss: 0.0217
+Epoch 3, Batch 31.0, Loss: 0.0217
+Epoch 3, Validation Accuracy: 0.9100
+Epoch 4, Batch 1.0, Loss: 0.0022
+Epoch 4, Batch 11.0, Loss: 0.0218
+Epoch 4, Batch 21.0, Loss: 0.0217
+Epoch 4, Batch 31.0, Loss: 0.0217
+Epoch 4, Validation Accuracy: 0.9100
+Epoch 5, Batch 1.0, Loss: 0.0022
+Epoch 5, Batch 11.0, Loss: 0.0219
+Epoch 5, Batch 21.0, Loss: 0.0217
+Epoch 5, Batch 31.0, Loss: 0.0217
+Epoch 5, Validation Accuracy: 0.9100
+Epoch 6, Batch 1.0, Loss: 0.0022
+Epoch 6, Batch 11.0, Loss: 0.0219
+Epoch 6, Batch 21.0, Loss: 0.0217
+Epoch 6, Batch 31.0, Loss: 0.0218
+Epoch 6, Validation Accuracy: 0.9100
+Epoch 7, Batch 1.0, Loss: 0.0022
+Epoch 7, Batch 11.0, Loss: 0.0219
+Epoch 7, Batch 21.0, Loss: 0.0217
+Epoch 7, Batch 31.0, Loss: 0.0218
+Epoch 7, Validation Accuracy: 0.9100
+Epoch 8, Batch 1.0, Loss: 0.0022
+Epoch 8, Batch 11.0, Loss: 0.0219
+Epoch 8, Batch 21.0, Loss: 0.0217
+Epoch 8, Batch 31.0, Loss: 0.0218
+Epoch 8, Validation Accuracy: 0.9100
+Epoch 9, Batch 1.0, Loss: 0.0022
+Epoch 9, Batch 11.0, Loss: 0.0219
+Epoch 9, Batch 21.0, Loss: 0.0217
+Epoch 9, Batch 31.0, Loss: 0.0218
+Epoch 9, Validation Accuracy: 0.9100
+Epoch 10, Batch 1.0, Loss: 0.0022
+Epoch 10, Batch 11.0, Loss: 0.0219
+Epoch 10, Batch 21.0, Loss: 0.0217
+Epoch 10, Batch 31.0, Loss: 0.0218
+Epoch 10, Validation Accuracy: 0.9100
+Epoch 11, Batch 1.0, Loss: 0.0022
+Epoch 11, Batch 11.0, Loss: 0.0219
+Epoch 11, Batch 21.0, Loss: 0.0217
+Epoch 11, Batch 31.0, Loss: 0.0218
+Epoch 11, Validation Accuracy: 0.9100
+Epoch 12, Batch 1.0, Loss: 0.0022
+Epoch 12, Batch 11.0, Loss: 0.0219
+Epoch 12, Batch 21.0, Loss: 0.0217
+Epoch 12, Batch 31.0, Loss: 0.0218
+Epoch 12, Validation Accuracy: 0.9100
+Epoch 13, Batch 1.0, Loss: 0.0022
+Epoch 13, Batch 11.0, Loss: 0.0219
+Epoch 13, Batch 21.0, Loss: 0.0217
+Epoch 13, Batch 31.0, Loss: 0.0218
+Epoch 13, Validation Accuracy: 0.9100
+Epoch 14, Batch 1.0, Loss: 0.0022
+Epoch 14, Batch 11.0, Loss: 0.0219
+Epoch 14, Batch 21.0, Loss: 0.0217
+Epoch 14, Batch 31.0, Loss: 0.0218
+Epoch 14, Validation Accuracy: 0.9100
+Epoch 15, Batch 1.0, Loss: 0.0022
+Epoch 15, Batch 11.0, Loss: 0.0219
+Epoch 15, Batch 21.0, Loss: 0.0217
+Epoch 15, Batch 31.0, Loss: 0.0218
+Epoch 15, Validation Accuracy: 0.9100
+Epoch 16, Batch 1.0, Loss: 0.0022
+Epoch 16, Batch 11.0, Loss: 0.0219
+Epoch 16, Batch 21.0, Loss: 0.0217
+Epoch 16, Batch 31.0, Loss: 0.0218
+Epoch 16, Validation Accuracy: 0.9100
+Epoch 17, Batch 1.0, Loss: 0.0022
+Epoch 17, Batch 11.0, Loss: 0.0219
+Epoch 17, Batch 21.0, Loss: 0.0217
+Epoch 17, Batch 31.0, Loss: 0.0218
+Epoch 17, Validation Accuracy: 0.9100
+Epoch 18, Batch 1.0, Loss: 0.0022
+Epoch 18, Batch 11.0, Loss: 0.0219
+Epoch 18, Batch 21.0, Loss: 0.0217
+Epoch 18, Batch 31.0, Loss: 0.0218
+Epoch 18, Validation Accuracy: 0.9100
+Epoch 19, Batch 1.0, Loss: 0.0022
+Epoch 19, Batch 11.0, Loss: 0.0219
+Epoch 19, Batch 21.0, Loss: 0.0217
+Epoch 19, Batch 31.0, Loss: 0.0218
+Epoch 19, Validation Accuracy: 0.9100
+Epoch 20, Batch 1.0, Loss: 0.0022
+Epoch 20, Batch 11.0, Loss: 0.0219
+Epoch 20, Batch 21.0, Loss: 0.0217
+Epoch 20, Batch 31.0, Loss: 0.0218
+Epoch 20, Validation Accuracy: 0.9100
+Epoch 21, Batch 1.0, Loss: 0.0022
+Epoch 21, Batch 11.0, Loss: 0.0219
+Epoch 21, Batch 21.0, Loss: 0.0217
+Epoch 21, Batch 31.0, Loss: 0.0218
+Epoch 21, Validation Accuracy: 0.9100
+Epoch 22, Batch 1.0, Loss: 0.0022
+Epoch 22, Batch 11.0, Loss: 0.0219
+Epoch 22, Batch 21.0, Loss: 0.0217
+Epoch 22, Batch 31.0, Loss: 0.0218
+Epoch 22, Validation Accuracy: 0.9100
+Epoch 23, Batch 1.0, Loss: 0.0022
+Epoch 23, Batch 11.0, Loss: 0.0219
+Epoch 23, Batch 21.0, Loss: 0.0217
+Epoch 23, Batch 31.0, Loss: 0.0218
+Epoch 23, Validation Accuracy: 0.9100
+Epoch 24, Batch 1.0, Loss: 0.0022
+Epoch 24, Batch 11.0, Loss: 0.0219
+Epoch 24, Batch 21.0, Loss: 0.0217
+Epoch 24, Batch 31.0, Loss: 0.0218
+Epoch 24, Validation Accuracy: 0.9100
+Epoch 25, Batch 1.0, Loss: 0.0022
+Epoch 25, Batch 11.0, Loss: 0.0219
+Epoch 25, Batch 21.0, Loss: 0.0217
+Epoch 25, Batch 31.0, Loss: 0.0218
+Epoch 25, Validation Accuracy: 0.9100
+Epoch 26, Batch 1.0, Loss: 0.0022
+Epoch 26, Batch 11.0, Loss: 0.0219
+Epoch 26, Batch 21.0, Loss: 0.0217
+Epoch 26, Batch 31.0, Loss: 0.0218
+Epoch 26, Validation Accuracy: 0.9100
+Epoch 27, Batch 1.0, Loss: 0.0022
+Epoch 27, Batch 11.0, Loss: 0.0219
+Epoch 27, Batch 21.0, Loss: 0.0217
+Epoch 27, Batch 31.0, Loss: 0.0218
+Epoch 27, Validation Accuracy: 0.9100
+Epoch 28, Batch 1.0, Loss: 0.0022
+Epoch 28, Batch 11.0, Loss: 0.0219
+Epoch 28, Batch 21.0, Loss: 0.0217
+Epoch 28, Batch 31.0, Loss: 0.0218
+Epoch 28, Validation Accuracy: 0.9100
+Epoch 29, Batch 1.0, Loss: 0.0022
+Epoch 29, Batch 11.0, Loss: 0.0219
+Epoch 29, Batch 21.0, Loss: 0.0217
+Epoch 29, Batch 31.0, Loss: 0.0218
+Epoch 29, Validation Accuracy: 0.9100
+Epoch 30, Batch 1.0, Loss: 0.0022
+Epoch 30, Batch 11.0, Loss: 0.0219
+Epoch 30, Batch 21.0, Loss: 0.0217
+Epoch 30, Batch 31.0, Loss: 0.0218
+Epoch 30, Validation Accuracy: 0.9100
+Epoch 31, Batch 1.0, Loss: 0.0022
+Epoch 31, Batch 11.0, Loss: 0.0219
+Epoch 31, Batch 21.0, Loss: 0.0217
+Epoch 31, Batch 31.0, Loss: 0.0218
+Epoch 31, Validation Accuracy: 0.9100
+Epoch 32, Batch 1.0, Loss: 0.0022
+Epoch 32, Batch 11.0, Loss: 0.0219
+Epoch 32, Batch 21.0, Loss: 0.0217
+Epoch 32, Batch 31.0, Loss: 0.0218
+Epoch 32, Validation Accuracy: 0.9100
+Epoch 33, Batch 1.0, Loss: 0.0022
+Epoch 33, Batch 11.0, Loss: 0.0219
+Epoch 33, Batch 21.0, Loss: 0.0217
+Epoch 33, Batch 31.0, Loss: 0.0218
+Epoch 33, Validation Accuracy: 0.9100
+Epoch 34, Batch 1.0, Loss: 0.0022
+Epoch 34, Batch 11.0, Loss: 0.0219
+Epoch 34, Batch 21.0, Loss: 0.0217
+Epoch 34, Batch 31.0, Loss: 0.0218
+Epoch 34, Validation Accuracy: 0.9100
+Epoch 35, Batch 1.0, Loss: 0.0022
+Epoch 35, Batch 11.0, Loss: 0.0219
+Epoch 35, Batch 21.0, Loss: 0.0217
+Epoch 35, Batch 31.0, Loss: 0.0218
+Epoch 35, Validation Accuracy: 0.9100
+Epoch 36, Batch 1.0, Loss: 0.0022
+Epoch 36, Batch 11.0, Loss: 0.0219
+Epoch 36, Batch 21.0, Loss: 0.0217
+Epoch 36, Batch 31.0, Loss: 0.0218
+Epoch 36, Validation Accuracy: 0.9100
+Epoch 37, Batch 1.0, Loss: 0.0022
+Epoch 37, Batch 11.0, Loss: 0.0219
+Epoch 37, Batch 21.0, Loss: 0.0217
+Epoch 37, Batch 31.0, Loss: 0.0218
+Epoch 37, Validation Accuracy: 0.9100
+Epoch 38, Batch 1.0, Loss: 0.0022
+Epoch 38, Batch 11.0, Loss: 0.0219
+Epoch 38, Batch 21.0, Loss: 0.0217
+Epoch 38, Batch 31.0, Loss: 0.0218
+Epoch 38, Validation Accuracy: 0.9100
+Epoch 39, Batch 1.0, Loss: 0.0022
+Epoch 39, Batch 11.0, Loss: 0.0219
+Epoch 39, Batch 21.0, Loss: 0.0217
+Epoch 39, Batch 31.0, Loss: 0.0218
+Epoch 39, Validation Accuracy: 0.9100
+Epoch 40, Batch 1.0, Loss: 0.0022
+Epoch 40, Batch 11.0, Loss: 0.0219
+Epoch 40, Batch 21.0, Loss: 0.0217
+Epoch 40, Batch 31.0, Loss: 0.0218
+Epoch 40, Validation Accuracy: 0.9100
+Epoch 41, Batch 1.0, Loss: 0.0022
+Epoch 41, Batch 11.0, Loss: 0.0219
+Epoch 41, Batch 21.0, Loss: 0.0217
+Epoch 41, Batch 31.0, Loss: 0.0218
+Epoch 41, Validation Accuracy: 0.9100
+Epoch 42, Batch 1.0, Loss: 0.0022
+Epoch 42, Batch 11.0, Loss: 0.0219
+Epoch 42, Batch 21.0, Loss: 0.0217
+Epoch 42, Batch 31.0, Loss: 0.0218
+Epoch 42, Validation Accuracy: 0.9100
+Epoch 43, Batch 1.0, Loss: 0.0022
+Epoch 43, Batch 11.0, Loss: 0.0219
+Epoch 43, Batch 21.0, Loss: 0.0217
+Epoch 43, Batch 31.0, Loss: 0.0218
+Epoch 43, Validation Accuracy: 0.9100
+Epoch 44, Batch 1.0, Loss: 0.0022
+Epoch 44, Batch 11.0, Loss: 0.0219
+Epoch 44, Batch 21.0, Loss: 0.0217
+Epoch 44, Batch 31.0, Loss: 0.0218
+Epoch 44, Validation Accuracy: 0.9100
+Epoch 45, Batch 1.0, Loss: 0.0022
+Epoch 45, Batch 11.0, Loss: 0.0219
+Epoch 45, Batch 21.0, Loss: 0.0217
+Epoch 45, Batch 31.0, Loss: 0.0218
+Epoch 45, Validation Accuracy: 0.9100
+Epoch 46, Batch 1.0, Loss: 0.0022
+Epoch 46, Batch 11.0, Loss: 0.0219
+Epoch 46, Batch 21.0, Loss: 0.0217
+Epoch 46, Batch 31.0, Loss: 0.0218
+Epoch 46, Validation Accuracy: 0.9100
+Epoch 47, Batch 1.0, Loss: 0.0022
+Epoch 47, Batch 11.0, Loss: 0.0219
+Epoch 47, Batch 21.0, Loss: 0.0217
+Epoch 47, Batch 31.0, Loss: 0.0218
+Epoch 47, Validation Accuracy: 0.9100
+Epoch 48, Batch 1.0, Loss: 0.0022
+Epoch 48, Batch 11.0, Loss: 0.0219
+Epoch 48, Batch 21.0, Loss: 0.0217
+Epoch 48, Batch 31.0, Loss: 0.0218
+Epoch 48, Validation Accuracy: 0.9100
+Epoch 49, Batch 1.0, Loss: 0.0022
+Epoch 49, Batch 11.0, Loss: 0.0219
+Epoch 49, Batch 21.0, Loss: 0.0217
+Epoch 49, Batch 31.0, Loss: 0.0218
+Epoch 49, Validation Accuracy: 0.9100
+Epoch 50, Batch 1.0, Loss: 0.0022
+Epoch 50, Batch 11.0, Loss: 0.0219
+Epoch 50, Batch 21.0, Loss: 0.0217
+Epoch 50, Batch 31.0, Loss: 0.0218
+Epoch 50, Validation Accuracy: 0.9100
+metrics:
+Test Accuracy: 0.9200
+Precision: 1.0000
+Recall: 0.5460
+F1 Score: 0.7063
+
+LSTM on wordnet:
+Batch size : 32, epochs : 15, hidden size = 128, embdedding size = 256
+
+metrics
+Test Accuracy: 0.8100
+Precision: 0.5638
+Recall: 0.5333
+F1 Score: 0.6777
+
+Knowledge based trained on wic_tsv
+accuracy : 93%
+Knowledge based on wordnet
+accuracy : 100%
+
+RNN on wic_tsv:
+
+Output dimension : 100
+Batch size : 32
+Embedding dimension : 256
+Hidden dimension : 256
+Learning rate = 0.01
+
+RNN on semcor:
+
+Output dimension : 100
+Batch size : 32
+Embedding dimension : 512
+Hidden dimension : 256
+Learning rate = 0.001
+
+
+RNN on wordnet:
+
+Output dimension : 100
+Batch size : 32
+Embedding dimension : 128
+Hidden dimension : 256
+Learning rate = 0.01
+
