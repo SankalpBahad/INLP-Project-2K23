@@ -10,5 +10,6 @@ tensorflow
 keras
 nltk
 sklearn
+pytorch
 
 All files uploaded are .py files that should be run by normal commands "python3 <filename.py>"
